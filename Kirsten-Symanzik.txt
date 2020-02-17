@@ -55,7 +55,10 @@
         }
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-   
+        A specific class can be applied to multiple elements, whereas a specific id can only be applied to one specific element.
+        A class might be used when you need to style multiple elements all in the same way, but they have different tags.
+        An id might be used because it has a higher specificity weight than a class, or if you only want to refer to one specific element.
+    
     20. How do we select classes in CSS?
         .className {
         }
@@ -84,7 +87,8 @@
         }
 
     30. How do I write a comment in CSS?
-   
+        /* your comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
    
     32. Using the command line - how do I see a list of files/folders in my current folder?
@@ -97,9 +101,11 @@
     34. Why should I use version control? 
    
     35. How often should I commit to github?
-   
+        Commit every 10-15 minutes or so, when you are at a good stopping point.
+
     36. What is the command we would use to push our repo up to github? 
-   
+        git push origin your-branch-name
+        
     37. Walk me through Lambda's git flow. 
 
 Stretch Questions
